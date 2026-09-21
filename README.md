@@ -1,23 +1,15 @@
 <img width="2727" height="978" alt="KinemiumFull" src="https://github.com/user-attachments/assets/1792beb7-d877-453d-ab3f-2d86cd434239" />
 
 <p align="center">
-  <a href="https://kinemiumengine.discourse.group/">
-    <img src="https://img.shields.io/badge/Forum-Discourse-orange?logo=discourse&logoColor=white" alt="Discourse Forum" /></a>
-  &nbsp;
   <a href="https://discord.gg/hv6hKfKjk5">
     <img src="https://img.shields.io/discord/1442958989863157927?logo=discord&logoColor=white&label=Discord&color=5865F2" alt="Chat on Discord" /></a>
   &nbsp;
   <a href="https://kinemium-docs.vercel.app/docs">
     <img src="https://img.shields.io/badge/Docs-kinemium-blue?logo=readthedocs&logoColor=white" alt="Documentation" /></a>
   &nbsp;
-  <a href="https://kinemium.ftp.sh/">
-    <img src="https://img.shields.io/badge/Website-kinemium.ftp.sh-informational?logo=firefox&logoColor=white" alt="Website" /></a>
+  <a href="https://kinemium.quadigen.com/">
+    <img src="https://img.shields.io/badge/Website-kinemium.quadigen.com-informational?logo=firefox&logoColor=white" alt="Website" /></a>
   &nbsp;
-  <a href="https://kinemium.ftp.sh/marketplace/">
-    <img src="https://img.shields.io/badge/Marketplace-plugins-success?logo=lua&logoColor=white" alt="Marketplace" /></a>
-  &nbsp;
-  <a href="https://kinemium.ftp.sh/articles/">
-    <img src="https://img.shields.io/badge/Articles-blog-blueviolet?logo=hashnode&logoColor=white" alt="Articles" /></a>
 </p>
 
 # Kinemium is being rebuilt in Odin with a new runtime, renderer, editor, and scripting architecture. Follow development on the forums. [Read the development status report](https://forums.quadigen.com/t/quick-status-report-about-the-engine/31)
@@ -95,9 +87,33 @@ API features such as Instances and data types are implemented solely for develop
   - KinemiumShaderService
 </details>
 
-# That's cool.. But how do I use this?
-You can check out the guide here:
-https://forums.quadigen.com/t/guide-to-running-kinemium-engine/25
+# That's cool.. But how do I install this?
+Install git if you haven't installed it already `(run git --version)`: [https://git-scm.com/install/](https://git-scm.com/install/)
+
+### Cloning the engine using Git
+
+Clone the engine in your designated folder: `git clone https://github.com/Qquaded/Kinemium-Engine.git`
+
+### Updating submodules
+
+Update submodules: `git submodule update --init --recursive`
+
+### Installing Rokit
+
+3. Install Rokit if you haven't already `(run rokit --version)`: [https://github.com/rojo-rbx/rokit](https://github.com/rojo-rbx/rokit)
+
+### Installing Zune
+
+4. CD (cd ./Kinemium-Engine) into the engine and install Zune: `rokit install`
+
+### Run the engine! [#run-the-engine]
+
+5. Run the engine! `zune run engine`
+
+Or, you could download from the releases page: [https://github.com/Qquaded/Kinemium-Engine/releases](https://github.com/Qquaded/Kinemium-Engine/releases)
+
+***
+
 # Commands
 Kinemium provides with several flags you can run with ```zune run game```<br>
 - headless (lets you run the engine without graphics)<br>
