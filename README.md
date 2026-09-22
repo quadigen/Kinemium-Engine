@@ -12,7 +12,7 @@
   &nbsp;
 </p>
 
-# Kinemium is being rebuilt in Odin with a new runtime, renderer, editor, and scripting architecture. Follow development on the forums. [Read the development status report](https://forums.quadigen.com/t/quick-status-report-about-the-engine/31)
+# Kinemium is being rebuilt in Odin with a new runtime, renderer, editor, and scripting architecture. Follow development on the forums. [Read the development status report](https://github.com/quadigen/Kinemium-Engine/discussions/38)
 
 ## Introduction
 Kinemium is a sandbox engine written in Luau (Zune Runtime). It includes a custom scripting language called Kilang, with Luau-style syntax and additional features.
